@@ -1,0 +1,158 @@
+# HTML
+
+<h1>Hello</h1>? That's an HTML element.
+
+Most HTML elements have an opening tag and a closing tag.
+
+Opening tags look like this:
+<h1>
+
+Closing tags look like this:
+</h1>
+
+The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.
+
+The h2 element you will be adding in this step will add a level two heading to the web page.
+This element tells the browser about the structure of your website. h1 elements are often used for main headings, while h2 elements are generally used for subheadings. There are also h3, h4, h5 and h6 elements to indicate different levels of subheadings.
+
+Add an h2 tag that says "CatPhotoApp" to create a second HTML element below your "Hello World" h1 element.
+
+p elements are the preferred element for paragraph text on websites. p is short for "paragraph".
+You can create a paragraph element like this:
+<p>I'm a p tag!</p>
+
+Create a p element below your h2 element, and give it the text "Hello Paragraph".
+Note: As a convention, all HTML tags are written in lowercase, for example <p></p> and not <P></P>.
+
+Web developers traditionally use lorem ipsum text as placeholder text. The lorem ipsum text is randomly scraped from a famous passage by Cicero of Ancient Rome.
+Lorem ipsum text has been used as placeholder text by typesetters since the 16th century, and this tradition continues on the web.
+Well, 5 centuries is long enough. Since we're building a CatPhotoApp, let's use something called "kitty ipsum text".
+
+Replace the text inside your p element with the first few words of this kitty ipsum text: Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+
+
+
+
+<h1>Hello World</h1>
+
+<h2>CatPhotoApp</h2>
+
+<p>Hello Paragraph</p>
+
+<p>kitty Epsom dolor sit amen, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff</p>
+
+
+
+
+
+Commenting is a way that you can leave comments for other developers within your code without affecting the resulting output that is displayed to the end user.
+Commenting is also a convenient way to make code inactive without having to delete it entirely.
+Comments in HTML start with <!-- and end with a -->
+
+Uncomment your h1, h2 and p elements.
+
+HTML5 introduces more descriptive HTML tags. These include main, header, footer, nav, video, article, section and others.
+These tags give a descriptive structure to your HTML, make your HTML easier to read, and help with Search Engine Optimization (SEO) and accessibility. The main HTML5 tag helps search engines and other developers find the main content of your page.
+Example usage, a main element with two child elements nested inside it:
+
+<main> 
+  <h1>Hello World</h1>
+  <p>Hello Paragraph</p>
+</main>
+
+Note: Many of the new HTML5 tags and their benefits are covered in the Applied Accessibility section.
+
+Create a second p element after the existing p element with the following kitty ipsum text: Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.
+Then, create a main element and nest the two p elements inside the main element.
+
+<h2>CatPhotoApp</h2>
+
+ <p>Kitty ipsum dolor sit amet, shed everywhere shed 
+everywhere stretching attack your ankles chase the red dot, 
+hairball run catnip eat the grass sniff.
+</p>
+
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, 
+shed everywhere rip the couch sleep in the sink fluffy fur catnip 
+scratched.
+</p>
+
+<main></main>
+
+
+
+You can add images to your website by using the img element, and point to a specific image's URL using the src attribute.
+An example of this would be:
+<img src="https://www.freecatphotoapp.com/your-image.jpg">
+Note that img elements are self-closing.
+All img elements must have an alt attribute. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
+Note: If the image is purely decorative, using an empty alt attribute is a best practice.
+Ideally the alt attribute should not contain special characters unless needed.
+Let's add an alt attribute to our img example above:
+<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">
+
+Let's try to add an image to our website:
+Within the existing main element, insert an img element before the existing p elements.
+Now set the src attribute so that it points to this url:
+https://bit.ly/fcc-relaxing-cat
+Finally, don't forget to give your img element an alt attribute with applicable text.
+
+
+
+<h2>CatPhotoApp</h2>
+
+<main>
+
+<img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+
+</main>
+
+
+Basic HTML and HTML5: Link to External Pages with Anchor Elements
+
+You can use a (anchor) elements to link to content outside of your web page.
+a elements need a destination web address called an href attribute. They also need anchor text. Here's an example:
+<a href="https://freecodecamp.org">this links to freecodecamp.org</a>
+Then your browser will display the text "this links to freecodecamp.org" as a link you can click. And that link will take you to the web address https://www.freecodecamp.org.
+
+Create an a element that links to https://freecatphotoapp.com and has "cat photos" as its anchor text.
+
+
+<h2>CatPhotoApp</h2>
+<main>
+
+  <a href="https://freecatphotoapp.com" target="_blank">cat photos</a>
+
+  <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+  <p>Meowwww loved it, hated it, loved it, hated it yet spill litter box, scratch at owner, destroy all furniture, especially couch or lay on arms while you're using the keyboard. Missing until dinner time toy mouse squeak roll over. With tail in the air lounge in doorway. Man running from cops stops to pet cats, goes to jail.</p>
+  <p>Intently stare at the same spot poop in the plant pot but kitten is playing with dead mouse. Get video posted to internet for chasing red dot leave fur on owners clothes meow to be let out and mesmerizing birds leave fur on owners clothes or favor packaging over toy so purr for no reason. Meow to be let out play time intently sniff hand run outside as soon as door open yet destroy couch.</p>
+
+</main>
+
+<footer>Copyright Cat Photo App</footer>
+
+
+
+
+Basic HTML and HTML5: Link to Internal Sections of a Page with Anchor Elements
+
+
+a (anchor) elements can also be used to create internal links to jump to different sections within a webpage.
+To create an internal link, you assign a link's href attribute to a hash symbol # plus the value of the id attribute for the element that you want to internally link to, usually further down the page. You then need to add the same id attribute to the element you are linking to. An id is an attribute that uniquely describes an element.
+Below is an example of an internal anchor link and its target element:
+
+<a href="#contacts-header">Contacts</a>
+...
+<h2 id="contacts-header">Contacts</h2>
+
+When users click the Contacts link, they'll be taken to the section of the webpage with the Contacts header element.
+
+Change your external link to an internal link by changing the href attribute to "#footer" and the text from "cat photos" to "Jump to Bottom".
+Remove the target="_blank" attribute from the anchor tag since this causes the linked document to open in a new window tab.
+Then add an id attribute with a value of "footer" to the <footer> element at the bottom of the page.
