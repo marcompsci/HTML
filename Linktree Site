@@ -1,0 +1,54 @@
+<-- Mimo Linktree Project -->
+
+<-- index.html -->
+
+<head>
+</head>
+<link href="style.css" rel="stylesheet" />
+<html>
+  <body>
+    <div class="container">
+      <img src="https//mimo.app/i/kitten_yawn.png" />
+      <a herf="https://bing.com">Bing Search</a>
+      <a herf="https://tripadvisor.com">Dream Trip</a>
+      <p>I haven't always been a coder, but ever since i created my first webpage I've been hooked.</p>
+      <link>
+      </link>
+    </div>
+</html>
+
+<-- style.css -->
+
+img {
+border-radius: 50px
+width: 100px
+}
+
+h2 {
+font-size: 28px;
+}
+
+body {
+background-color: #2C3E50;
+font-family: 'Trebuchet MS';
+color: white;
+}
+
+a {
+background-color: white;
+color: #2C3E50;
+display: block;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+width: 100%;
+padding: 16px 0px;
+margin-bottom: 16px:
+border-radius: 40px;
+}
+
+.container {
+width: 360px:
+margin: 60px auto;
+text-align: center;
+}
