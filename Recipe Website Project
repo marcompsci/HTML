@@ -1,0 +1,143 @@
+<-- Mimo Project with html & css -->
+
+<-- index.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <img src="https://mimo.app/i/logo.png"/>
+   <h4>FEATURED RECIPE</h4>
+   <div>
+   <img src="https://mimo.app/i/cheesecake.png"/>
+   <input
+    type="text" placeholder="Look for a recipe"
+    />
+   <p><a href="cheesecake.html">See Recipe</p>
+    </div>
+    <div>
+   <h4>OTHER RECIPES</h4>
+   <img src="https://mimo.app/i/dumplings.png"/>
+   <p><a href="dumplings.html">See Recipe</p>
+    </div>
+  </body>
+</html>
+
+<-- cheesecake.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style2.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>EASY CHEESECAKE RECIPE</h1>
+    <img src="https://mimo.app/i/cheesecake.png"/>
+    <ol>
+      <li>Graham Cracker Crust<ul>
+       <li>Graham Crackers</li>
+       <li>Butter</li>
+       <li>Sugar</li>
+       <li>Salt</li>
+      </ul>
+      </li>
+      <li>Cheesecake Filling<ul>
+        <li>Cream Cheese</li>
+        <li>Sugar</li>
+        <li>Sour Cream</li>
+        <li>Vanilla Extract</li>
+        <li>Eggs</li>
+      </ul>
+      </li>
+    </ol>
+  </body>
+</html>
+
+<-- dumplings.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style2.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>EASY DUMPLINGS RECIPE</h1>
+    <img src="https://mimo.app/i/dumplings.png"/>
+    <ol>
+      <li>Dumplings<ul>
+        <li>Flour</li>
+        <li>Salt</li>
+        <li>Warm Water</li>
+        <li>Red Cabbage</li>
+        <li>Green Onions</li>
+        <li>Garlic and Ginger</li>
+        <li>Soy Sauce</li>
+        </ul>
+      </li>
+      <li>Dipping Sauce<ul>
+        <li>Soy Sauce</li>
+        <li>Rice Wine Vinegar</li>
+        <li>Sesame Oil</li>
+        <li>Red Chili Flake</li>
+      </ul>
+      </li>
+    </ol>
+  </body>
+</html>
+
+<-- style.css -->
+
+body{
+    font-family: Verdana;
+    text-align: center;
+  }
+  
+  div{
+    margin: 40px;
+  }
+  
+  h1{
+    color : darkslategray;
+  }
+  
+  h4{
+    font-weight: bold;
+    font-family: Lucida Sans;
+  }
+  
+  img{
+    width: 40%;
+    border-radius: 10%;
+  }
+  
+  input{
+    margin: 0 auto;
+    margin-top : 15px;
+    padding : 10px;
+    display: block;
+  }
+  
+  li{
+    text-align: left;
+    padding: 5px;
+  }
+
+<-- style2.css -->
+
+body{
+    font-family: Verdana;
+    color : darkslategray;
+    background-color : papayawhip;
+  }
+  
+  img{
+    width: 40%;
+    border-radius: 10%;
+    box-shadow: 3px 3px 5px gray;
+  }
+  
+  li{
+    padding: 5px;
+  }  
