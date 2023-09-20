@@ -1,0 +1,103 @@
+<-- Mimo Portfolio Project -->
+
+<-- index.html-->
+
+<!doctype html>
+<html>
+  <body>
+    <nav>
+      <h1>Nina Davidson</h1>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Get in touch</a>
+    </nav>
+    <div>
+      <p>My name is Nina Davidson, and I have been a softwareengineer for one year.</p>
+      <img src="img/nina.png" width="300"/>
+      <p>Learning how to code came pretty easy for me. Technology is practically my second language.</p>
+      <p>Check out my<a href="/404.html">latest project!</p>
+      <link href="Check"/>
+      <link href="Project"/>
+    </div>
+  </body>
+</html>
+
+<-- portfolio.html -->
+
+<!doctype html>
+<html>
+  <body>
+    <nav>
+      <h1>Nina Davidson</h1>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Get in touch</a>
+    </nav>
+    <div>
+      <h2>My Previous Work</h2>
+      <p>Here's a list of some of my previous work and satisfied clients.</p>
+      <ul>
+       <li><a href="404.html">Online Resume Project</a></li>
+       <li><a href="404.html">Online Cat Photo Project</a></li>
+       <li><a href="404.html">Brown Bear Website Project</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
+
+<-- contact.html -->
+
+<!doctype html>
+<html>
+  <body>
+    <nav>
+      <h1>Nina Davidson</h1>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Get in touch</a>
+    </nav>
+    <div>
+      <h2>Get in touch</h2>
+      <p>Let's chat about how I can help with your next project.</p>
+      <input
+      type="text" placeholder="Name"
+      </input>
+      <input
+      type="email" placeholder="Email"
+      </input>
+      <p>Budget</p>
+      <em>$500</em>
+      <input 
+      type="range"
+      />
+      <em>$5000+</em>
+      <p>Website type</p>
+      <input
+      type="checkbox"
+      />
+      <em>Blog</em>
+      <input
+      type="checkbox"
+      />
+      <em>Company</em>
+      <input
+      type="checkbox"
+      />
+      <em>Other</em>
+      <button>Get a quote</button>
+    </div>
+  </body>
+</html>
+
+<-- 404.html -->
+
+<!doctype html>
+<html>
+  <body>
+    <h1>Nina Davidson</h1>
+      <a href="index.html">Back to homepage</a>
+    <h2>404 - Page not found!</h2>
+    <p>That's an oooopppsieee!</p>
+    <img src="img/ghost.png" width="300"/>
+  </body>
+</html>
