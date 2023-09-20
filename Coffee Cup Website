@@ -1,0 +1,123 @@
+<-- Coffee Cup Website -->
+
+<-- index.html -->
+
+<link rel="stylesheet" type="text/css" href="./style.css">
+  <title>Coffee Makers Challenge - Homepage</title>
+ </head>
+ <body>
+  <ul>
+   <li><a href="index.html">COFFEE MAKERS</a></li>
+   <li><a href="learn.html">LEARN</a></li>
+   <li><a href="bestdeals.html">BEST DEALS</a></li>
+  </ul>
+  <div>
+   <h1>Coffee Makers</h1>
+   <br />
+   <img src="https://mimo.app/i/home-coffee.png" width="200px"
+    height="200px" />
+   <br />
+   <p>The favourite shop of every coffee enthusiast</p>
+  </div>
+ </body>
+</html>
+
+<-- learn.html -->
+
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Coffee Makers Challenge - Learn page</title>
+  </head>
+  <body>
+    <ul>
+      <li><a href="https://mimo.app/i/home-coffee.png">COFFEE MAKERS</a></li>
+      <li><a href="https://mimo.app/i/learn-coffee.png">LEARN</a></li>
+      <li><a href="https://mimo.app/i/bestdeals.html.png">BEST DEALS</a></li>
+    </ul>
+    <div>
+      <h1>Learn</h1>
+      <img src="https://mimo.app/i/learn-coffee.png" width="200" height="200" />
+    </div>
+    <ul>
+      <li><strong>To start your coffee journey, you need to follow the following
+          steps: </strong></li>
+      <ol>
+        <li>Add water</li>
+        <li>Add filter</li>
+        <li>Add coffee grounds</li>
+        <li>Brew</li>
+        <li>Pour and enjoy</li>
+      </ol>
+      <li><strong>Tips</strong></li>
+      <ol>
+        <li>Inspect your coffee pot</li>
+        <li>Use a thermal carafe</li>
+        <li>Preheat the coffee pot</li>
+        <li>Preheat your coffee cup</li>
+      </ol>
+    </ul>
+  </body>
+</html>
+
+<-- bestdeal.html -->
+
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Coffee Makers Challenge - Best deals page</title>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">COFFEE MAKERS</a></li>
+      <li><a href="learn.html">LEARN</a></li>
+      <li><a href="bestdeals.html">BEST DEALS</a></li>
+    </ul>
+    <div>
+      <h1>Best deals</h1>
+      <br />
+      <div>
+        <h2>Silver Coffee Maker - $40</h2>
+        <img src="https://mimo.app/i/gray-coffee-maker.png" width="100px"
+          height="100px" />
+        <br />
+      </div>
+      <div>
+        <h2>Red Coffee Maker - $80</h2>
+        <img src="https://mimo.app/i/red-coffee-maker.png" width="100px"
+          height="100px" />
+        <br />
+      </div>
+      <div>
+        <h2>Get a deal with us?</h2>
+        <p> Email: </p>
+        <input type="text" name="email" placeholder="Enter your email">
+        <br />
+        <input type="checkbox"> Silver Coffee Maker <br />
+        <input type="checkbox"> Red Coffee Maker <br />
+        <button>Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<-- style.css -->
+
+body {
+    background: #A25B5B;
+    color: #CC9C75;
+   }
+   
+   img {
+    border-radius: 100%;
+   }
+   
+   ul {
+    list-style: none;
+   }
+   
+   div {
+    text-align: center;
+   }
